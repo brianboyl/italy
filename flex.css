@@ -88,9 +88,10 @@ body {
   text-underline-offset: 6px;
 }
 
+
 header {
   clear: both;
-  text-align: center;
+  /*text-align: center;*/
   display: block;
   width: 100%;
   float: left;
@@ -117,6 +118,7 @@ h1 {
   justify-content: center;
 }
 
+/*
 .author {
   display: inline;
 }
@@ -128,7 +130,7 @@ h1 {
 .byline .separator {
   display: inline;
 }
-
+*/
 
 main {
 
