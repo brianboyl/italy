@@ -9,11 +9,10 @@ body {
   margin-right: auto;
   margin-left: auto;
   max-width: 1100px;
+  display: flex;
 }
 
-
 /* Top navigation bar */
-
 .navbar {
   display: block;
   width: 100%;
@@ -22,9 +21,7 @@ body {
   text-align: right;
 }
 
-
 /* Breadcrumb Menu */
-
 .breadcrumbs {
   color: white;
   font-style: italic;
@@ -46,7 +43,7 @@ body {
 }
 
 .breadcrumbs li:last-child::after {
-  content:'';
+  content: '';
 }
 
 .breadcrumbs a {
@@ -62,9 +59,7 @@ body {
   text-decoration-skip-ink: none;
 }
 
-
 /* main navigation menu */
-
 .main_nav {
   padding: 0;
   margin-top: .5rem;
@@ -88,7 +83,6 @@ body {
   text-underline-offset: 6px;
 }
 
-
 header {
   clear: both;
   display: block;
@@ -97,6 +91,7 @@ header {
   margin-bottom: 30px;
   display: flex;
   flex-direction: column;
+  background-color: cadetblue;
 }
 
 h1 {
@@ -116,9 +111,8 @@ h1 {
   justify-content: center;
 }
 
-
 main {
-
+  background-color: seagreen;
 }
 
 section {
@@ -140,9 +134,7 @@ figure {
   margin-left: 0;
 }
 
-img {
-
-}
+img {}
 
 figcaption {
   font-style: italic;
@@ -154,7 +146,7 @@ figcaption {
   display: inline-block;
 }
 
-.intro p{
+.intro p {
   font-weight: 100;
   font-style: italic;
   font-size: 1.3em;
@@ -163,7 +155,6 @@ figcaption {
 .tuscany .text {
   margin-right: 40px;
 }
-
 
 .milan .text {
   margin-right: 40px;
@@ -180,7 +171,6 @@ ul {
 li {
   margin-bottom: 20px;
 }
-
 
 footer {
   background-color: lightgray;
